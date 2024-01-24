@@ -5,13 +5,18 @@ function App() {
     <div className="App">
       <footer>
         This Websited Is Coded By{" "}
-        <a href="https://www.linkedin.com/in/nino-antadze/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/nino-antadze/"
+          target="_blank"
+          rel="noreferrer"
+        >
           Ninia
         </a>{" "}
         and is open-sourced on{" "}
         <a
           href="https://github.com/niniantadze/react-dictionary-by-ninia"
           target="_blank"
+          rel="noreferrer"
         >
           Github!
         </a>
