@@ -1,8 +1,12 @@
 import "./App.css";
+import logo from "./logo.png";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
+      <div className="App-header">
+        <img src={logo} className="App-logo img-fluid" alt="logo" />
+      </div>
       <footer>
         This Websited Is Coded By{" "}
         <a
@@ -24,5 +28,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
